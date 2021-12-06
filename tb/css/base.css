@@ -1,0 +1,55 @@
+body,
+dd,
+dl,
+dt,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+li,
+p,
+td,
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+  font-size: 14px;
+  color: #6c6c6c;
+}
+.arrow-down {
+  border-left: 2px solid #a7a8a5;
+  border-bottom: 2px solid #a7a8a5;
+  height: 2px;
+  width: 2px;
+  transform: translate(2px, -2px) rotate(-45deg);
+  -webkit-transform: translate(2px, -2px) rotate(-45deg);
+  border-right: 2px solid transparent;
+  border-top: 2px solid transparent;
+  display: inline-block;
+  -moz-transform: translate(2px, -2px) rotate(-45deg);
+  -ms-transform: translate(2px, -2px) rotate(-45deg);
+  -o-transform: translate(2px, -2px) rotate(-45deg);
+}
+.font-red {
+  color: #f22e00
+}
+header .top-container {
+  display: flex;
+  height: 35px;
+  background: #f5f5f5;
+  justify-content: space-around;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+ul li {
+  margin: 0 10px;
+  line-height: 35px;
+}
